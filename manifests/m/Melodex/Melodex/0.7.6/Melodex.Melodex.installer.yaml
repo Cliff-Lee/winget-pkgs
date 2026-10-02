@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Melodex.Melodex
+PackageVersion: 0.7.6
+InstallerType: inno
+Scope: machine
+
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Cliff-Lee/melodex/releases/download/v0.7.6/Melodex-Windows-x64-Setup.exe
+    InstallerSha256: 4B5381B42C40CD82CB84C943E88CDC1D0CE54C192AC96A4F9DFD223F9810FF8E
+
+ManifestType: installer
+ManifestVersion: 1.12.0
